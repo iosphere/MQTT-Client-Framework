@@ -25,7 +25,7 @@
     #endif
 #else
     #ifdef DEBUG
-        #define DDLogVerbose NSLog
+        #define DDLogVerbose(...)
         #define DDLogWarn NSLog
         #define DDLogInfo NSLog
         #define DDLogError NSLog

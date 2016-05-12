@@ -462,7 +462,7 @@
 }
 
 - (void)decoder:(MQTTDecoder*)sender handleEvent:(MQTTDecoderEvent)eventCode error:(NSError *)error {
-    NSArray *events = @[
+    __unused NSArray *events = @[
                         @"MQTTDecoderEventProtocolError",
                         @"MQTTDecoderEventConnectionClosed",
                         @"MQTTDecoderEventConnectionError"
